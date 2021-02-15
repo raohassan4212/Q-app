@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="start_btn"><button>Start Quiz</button></div> 
+
+    <div class="info_box">
+
+        <div class="info_title">
+            <span>Some Rules of this Quiz</span>
+        </div>
+    
+        <div class="info_list">
+            <div class="info">1</div>
+            <div class="info">2</div>
+            <div class="info">3</div>
+            <div class="info">4</div>
+            <div class="info">5</div>
+        </div>
+
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+
+    </div>
+
+    <!-- Quiz Box -->
+
+
+    <div class="quiz_box">
+
+        <header>
+            <div class="title">Awesome Quiz Application</div>
+
+            <div class="timer">
+                <div class="time_text">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+
+        </header>
+
+        <section>
+
+            <div class="que_text">
+                <span>What does HTML stand for?</span>
+            </div>
+
+            <div class="option_list">
+
+                <div class="option">
+                    <span>Hyper Text Processor</span>
+                    <div class="icon tick"><i class="fas fa-chec"></i></div>
+                </div>
+
+                <div class="option">
+                    <span>Hyper Text ping</span>
+                    <div class="icon cross"><i class="fas fa-chec"></i></div>
+                </div>
+
+                <div class="option">
+                    <span>Hyper Text Markup</span>
+                    <div class="icon"><i class="fas fa-chec"></i></div>
+                </div>
+
+                <div class="option">
+                    <span>Hyper Text language</span>
+                    <div class="icon"><i class="fas fa-chec"></i></div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Quiz Box Footer -->
+        <footer>
+
+            <div class="total_que">
+                <span><p>2</p>of<p>5</p>Question</span>
+            </div>
+
+            <button class="next_btn">Next Que</button>
+
+        </footer>
+
+    </div>
+
+
+    <!-- Result Box -->
+
+
+    <div class="result_box">
+
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+
+        <div class="complete_text">You were complete the Quiz!</div>
+
+        <div class="score_text">
+            <span>and sorry, you got only <p>2</p> out of <p>5</p></span>
+        </div>
+
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
